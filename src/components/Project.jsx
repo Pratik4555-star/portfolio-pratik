@@ -33,7 +33,7 @@ function Project() {
   return (
     <div className='w-full h-auto'>
         {/* Project Showcase */}
-        <div id="project" className="flex flex-col gap-4 px-5 mt-10">
+        <div id="project" className=" md:mt-10 flex flex-col gap-4 px-5 mt-14">
        
           <h1 id='pt' className='text-center text-2xl md:text-3xl font-semibold font-inner'>Project</h1>
      
@@ -41,39 +41,39 @@ function Project() {
           id="projects"
           className="font-inner text-slate-700 mt-5 md:mt-10 h-auto flex flex-col md:flex-wrap md:flex-row items-center justify-center gap-5 md:gap-20 py-5 w-full"
         >
-          <div id="left" className="flex-shrink-0 bg-gray-400 w-full sm:w-64 md:w-96 h-64 md:h-80 rounded-md">
+          <div id="left" className="flex-shrink-0 bg-gray-400 w-72 sm:w-full md:w-96 h-64 md:h-80 rounded-md">
             <h1 className="text-base md:text-2xl px-2 py-2 text-center">Todo App</h1>
-            <Link to="https://github.com/Pratik4555-star/Mean-Todo-app.git" className="block relative mt-8 md:mt-56 px-2 py-2 text-sm md:text-base">
+            <Link to="https://github.com/Pratik4555-star/Mean-Todo-app.git" className="block relative mt-40 md:mt-56 px-2 py-2 text-sm md:text-base">
               GitHub
             </Link>
           </div>
-          <div id="left" className="flex-shrink-0 bg-gray-400 w-full sm:w-64 md:w-96 h-64 md:h-80 rounded-md">
+          <div id="left" className="flex-shrink-0 bg-gray-400 w-72 sm:w-full md:w-96 h-64 md:h-80 rounded-md">
             <h1 className="text-base md:text-2xl px-2 py-2 text-center">Food Recipe</h1>
-            <Link to="https://github.com/Pratik4555-star/Food-recipe-website.git" className="block relative mt-8 md:mt-56 px-2 py-2 text-sm md:text-base">
+            <Link to="https://github.com/Pratik4555-star/Food-recipe-website.git" className="block relative mt-40 md:mt-56 px-2 py-2 text-sm md:text-base">
               GitHub
             </Link>
           </div>
-          <div id="left" className="flex-shrink-0 bg-gray-400 w-full sm:w-64 md:w-96 h-64 md:h-80 rounded-md">
+          <div id="left" className="flex-shrink-0 bg-gray-400 w-72 sm:w-full md:w-96 h-64 md:h-80 rounded-md">
             <h1 className="text-base md:text-2xl px-2 py-2 text-center">Leads Tracking App</h1>
-            <Link to="https://github.com/Pratik4555-star/LeadsTrackerAPP.git" className="block relative mt-8 md:mt-56 px-2 py-2 text-sm md:text-base">
+            <Link to="https://github.com/Pratik4555-star/LeadsTrackerAPP.git" className="block relative mt-40 md:mt-56 px-2 py-2 text-sm md:text-base">
               GitHub
             </Link>
           </div>
-          <div id="right" className="flex-shrink-0 bg-gray-400 w-full sm:w-64 md:w-96 h-64 md:h-80 rounded-md">
+          <div id="right" className="flex-shrink-0 bg-gray-400 w-72 sm:w-full md:w-96 h-64 md:h-80 rounded-md">
             <h1 className="text-base md:text-2xl px-2 py-2 text-center">React Routing Project</h1>
-            <Link to="https://github.com/Pratik4555-star/React-routing-earn-project.git" className="block relative mt-8 md:mt-56 px-2 py-2 text-sm md:text-base">
+            <Link to="https://github.com/Pratik4555-star/React-routing-earn-project.git" className="block relative mt-40 md:mt-56 px-2 py-2 text-sm md:text-base">
               GitHub
             </Link>
           </div>
-          <div id="right" className="flex-shrink-0 bg-gray-400 w-full sm:w-64 md:w-96 h-64 md:h-80 rounded-md">
+          <div id="right" className="flex-shrink-0 bg-gray-400 w-72 sm:w-full md:w-96 h-64 md:h-80 rounded-md">
             <h1 className="text-base md:text-2xl px-2 py-2 text-center">Currency Converter</h1>
-            <Link to="https://github.com/Pratik4555-star/Currency-conveter.git" className="block relative mt-8 md:mt-56 px-2 text-sm md:text-base">
+            <Link to="https://github.com/Pratik4555-star/Currency-conveter.git" className="block relativemt-40 md:mt-56 px-2 text-sm md:text-base">
               GitHub
             </Link>
           </div>
-          <div id="right" className="flex-shrink-0 bg-gray-400 w-full sm:w-64 md:w-96 h-64 md:h-80 rounded-md">
+          <div id="right" className="flex-shrink-0 bg-gray-400 w-72 sm:w-full md:w-96 h-64 md:h-80 rounded-md">
             <h1 className="text-base md:text-2xl px-2 py-2 text-center">Portfolio</h1>
-            <Link to="https://github.com/Pratik4555-star/portfolio-pratik.git" className="block relative mt-8 md:mt-56 px-2 text-sm md:text-base">
+            <Link to="https://github.com/Pratik4555-star/portfolio-pratik.git" className="block relative mt-40 md:mt-56 px-2 text-sm md:text-base">
               GitHub
             </Link>
           </div>
