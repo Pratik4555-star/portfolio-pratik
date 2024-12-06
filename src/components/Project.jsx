@@ -80,8 +80,8 @@ function Project() {
             </Link>
           </div>
           <div id="right" className="flex-shrink-0 bg-gray-400 w-64 md:w-96 h-64 md:h-80 rounded-md">
-            <h1 className="text-lg md:text-2xl px-2 py-2 text-center">Title</h1>
-            <Link to="/" className="block relative mt-16 md:mt-56 px-2  ">
+            <h1 className="text-lg md:text-2xl px-2 py-2 text-center">Portfolio</h1>
+            <Link to="https://github.com/Pratik4555-star/portfolio-pratik.git" className="block relative mt-16 md:mt-56 px-2  ">
               GitHub
             </Link>
           </div>
