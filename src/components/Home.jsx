@@ -50,17 +50,17 @@ function Home() {
       {/* About */}
       <div className="px-10 py-5 w-full h-1/2 ">
         <h1 className="text-center text-3xl font-semibold font-inner"> ABOUT</h1>
-        <p className="py-4 px-5 mt-3 font-inner tracking-wide text-justify text-2xl">Welcome to Pratik’s Portfolio, where technology and innovation take center stage! I’m Pratik, a fresher with a strong foundation in JavaScript, HTML, CSS, MongoDB, and Express.
+        <p className="py-4 px-5 mt-3 text-gray-500 font-inner tracking-wide text-justify text-2xl">Welcome to Pratik’s Portfolio, where technology and innovation take center stage! I’m Pratik, a fresher with a strong foundation in JavaScript, HTML, CSS, MongoDB, and Express.
 
 Driven by curiosity and a passion for building impactful solutions, I bring fresh perspectives, enthusiasm, and a commitment to clean and efficient code. Currently contributing to exciting projects at a startup, I’m honing my skills and gaining real-world experience in crafting intuitive and responsive web solutions.  </p>
 
-<p className="py-3 px-5  font-inner font-semibold tracking-wide text-justify text-2xl">Specializing in:</p>
-<ul className="list-disc px-10 font-inner text-2xl tracking-wide mb-4">
+<p className="py-3 px-5  font-inner text-gray-500 font-semibold tracking-wide text-justify text-2xl">Specializing in:</p>
+<ul className="list-disc px-10 text-gray-500 font-inner text-2xl tracking-wide mb-4">
 <li > Frontend Development: Creating user-friendly interfaces with HTML, CSS, and JavaScript.</li>
 <li> Backend Development: Building robust server-side functionalities using MongoDB and Express.</li>
 <li> Full-Stack Projects: Delivering seamless applications through combined expertise.</li>
 </ul>
-<p className="py-3 px-5  font-inner tracking-wide text-justify text-2xl">
+<p className="py-3 px-5 text-gray-500 font-inner tracking-wide text-justify text-2xl">
 I’m adaptable, eager to learn and thrive in collaborative environments. My vision is to create meaningful solutions that enhance user experiences and solve real problems. Let’s connect and build something extraordinary together!
 </p>
 
